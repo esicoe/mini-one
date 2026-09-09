@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "mini-one-footprint-lib") (type "KiCad") (uri "${KIPRJMOD}/mini-one-footprint-lib.pretty") (options "") (descr ""))
+)
