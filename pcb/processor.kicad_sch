@@ -3475,16 +3475,6 @@
 		)
 		(uuid "03b876a4-17d5-47ab-8e9c-89f07018f22d")
 	)
-	(text "Tied HIGH for routing purposes; set the GPIO to high-impedance"
-		(exclude_from_sim no)
-		(at 138.938 83.312 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "35b3ecfe-6631-4198-a057-63046778b7cb")
-	)
 	(text "Decoupling capacitors, Keep close to MCU (<2mm)"
 		(exclude_from_sim no)
 		(at 177.8 14.732 0)
@@ -3703,12 +3693,6 @@
 		(uuid "a5af174f-be3b-4b25-88ce-57e15156c4b0")
 	)
 	(junction
-		(at 102.87 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ac62f4b0-847d-42a6-b78c-6a9f8780c4bc")
-	)
-	(junction
 		(at 213.36 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3767,6 +3751,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fa03b549-5da9-4bb2-8879-fcee47f71dee")
+	)
+	(no_connect
+		(at 101.6 83.82)
+		(uuid "04f43d1e-933c-4719-9170-f398bd27510b")
 	)
 	(no_connect
 		(at 101.6 127)
@@ -3831,6 +3819,10 @@
 	(no_connect
 		(at 101.6 165.1)
 		(uuid "96f8aedf-5e42-458e-acf1-10e6b96b041c")
+	)
+	(no_connect
+		(at 101.6 81.28)
+		(uuid "a57c1117-df4e-4596-8abd-5c58f2d1b7ca")
 	)
 	(no_connect
 		(at 50.8 109.22)
@@ -4051,16 +4043,6 @@
 			(type default)
 		)
 		(uuid "2e384bbf-9828-4510-88c8-059b9aee1442")
-	)
-	(wire
-		(pts
-			(xy 101.6 81.28) (xy 102.87 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2eaccc8e-8c80-4879-bea1-6f8cd8a1a4cd")
 	)
 	(wire
 		(pts
@@ -4385,16 +4367,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 81.28) (xy 116.84 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7fe80423-f567-4354-9bc1-754061377ccd")
-	)
-	(wire
-		(pts
 			(xy 214.63 49.53) (xy 227.33 49.53)
 		)
 		(stroke
@@ -4537,16 +4509,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 80.01) (xy 116.84 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "948ff3b3-8295-4f5a-8ed3-35684bbc3d7f")
-	)
-	(wire
-		(pts
 			(xy 240.03 148.59) (xy 240.03 146.05)
 		)
 		(stroke
@@ -4554,16 +4516,6 @@
 			(type default)
 		)
 		(uuid "9d213c0b-e647-43ac-a72a-b64f1a119660")
-	)
-	(wire
-		(pts
-			(xy 102.87 81.28) (xy 102.87 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9dc3f2cd-6acb-48bc-b678-b515b121dcc6")
 	)
 	(wire
 		(pts
@@ -4655,16 +4607,6 @@
 			(type default)
 		)
 		(uuid "b11105e0-8715-4b7e-b663-dc8e285d299d")
-	)
-	(wire
-		(pts
-			(xy 102.87 83.82) (xy 101.6 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b35ef932-b133-45a1-b83f-aa5aca891468")
 	)
 	(wire
 		(pts
@@ -6805,83 +6747,6 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 116.84 80.01 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3d350943-d8cb-435d-807e-0f2be31990ac")
-		(property "Reference" "#PWR09"
-			(at 116.84 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 116.84 76.2 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 116.84 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 116.84 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cf6db54c-c5fd-46ad-b44f-723e25ce374b")
-		)
-		(instances
-			(project "mini-one-pcb"
-				(path "/ceb43049-5cbf-4c56-aa0a-c2184d7e2ca1/f3daba49-5080-4654-9217-67c35ea0f53f"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
 		(at 186.69 22.86 0)
 		(unit 1)
 		(body_style 1)
@@ -7368,7 +7233,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "4967f01c-7a2f-4508-ad2a-cc60ddc52bde")
 		(property "Reference" "J2"
 			(at 44.958 109.474 90)
@@ -8045,7 +7910,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "76254712-fd6b-4c0a-b30b-3581fcb866d5")
 		(property "Reference" "J1"
 			(at 42.418 76.2 90)
@@ -10047,7 +9912,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "e7c86048-9dbb-43ef-b684-688a0e4d22c6")
 		(property "Reference" "TP1"
 			(at 278.13 82.55 90)

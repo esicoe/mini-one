@@ -3023,7 +3023,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "3bfb8c27-225f-4f56-99cb-59999220ca12")
 		(property "Reference" "J13"
@@ -4251,7 +4251,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b16c81d2-99c5-4aca-a53a-ae3c6c889840")
 		(property "Reference" "J12"
@@ -4805,7 +4805,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "eab8f7d0-c90d-4558-8fd7-319b9019abdf")
 		(property "Reference" "TP3"
 			(at 171.323 184.277 90)
